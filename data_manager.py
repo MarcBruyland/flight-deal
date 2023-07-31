@@ -6,7 +6,6 @@ import os
 load_dotenv()
 
 SHEETY_PRICES_ENDPOINT = os.environ['SHEETY_PRICES_ENDPOINT']  # url contains api key giving access to a Google sheet
-print(SHEETY_PRICES_ENDPOINT)
 
 class DataManager:
 
